@@ -41,9 +41,9 @@ Item {
     property QtObject draggedStream: null
 
 //    Layout.minimumHeight: units.gridUnit * 12
-//    Layout.minimumWidth: units.gridUnit * 12
+    Layout.minimumWidth: units.gridUnit * 40
 //    Layout.preferredHeight: units.gridUnit * 40
-//    Layout.preferredWidth: units.gridUnit * 20
+    Layout.preferredWidth: units.gridUnit * 20
 
     Plasmoid.icon: sinkModel.preferredSink ? Icon.name(sinkModel.preferredSink.volume, sinkModel.preferredSink.muted) : Icon.name(0, true)
     Plasmoid.switchWidth: units.gridUnit * 12
@@ -301,7 +301,7 @@ Item {
             ColumnLayout {
                 id: streamsView
 //                visible: tabBar.currentTab == streamsTab
-                property int maximumWidth: scrollView.viewport.width
+                property int maximumWidth: scrollView.width - 8
                 width: maximumWidth
                 Layout.maximumWidth: maximumWidth
 
