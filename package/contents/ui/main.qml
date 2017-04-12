@@ -291,7 +291,7 @@ Item {
             bottom: mediaController.top
         }
 
-//        horizontalScrollBarPolicy: Qt.ScrollBarAlwaysOff
+        horizontalScrollBarPolicy: Qt.ScrollBarAlwaysOff
         flickableItem.boundsBehavior: Flickable.StopAtBounds;
 
         ColumnLayout {
@@ -412,17 +412,17 @@ Item {
                 }
             }
 
-            PlasmaExtras.Heading {
-                level: 4
-                opacity: 0.8
-                width: parent.width
-                height: scrollView.height
-                visible: streamsView.visible && !sinkInputView.count && !sourceOutputView.count
-                text: i18n("No applications playing or recording audio")
-                wrapMode: Text.WordWrap
-                verticalAlignment: Text.AlignVCenter
-                horizontalAlignment: Text.AlignHCenter
-            }
+//            PlasmaExtras.Heading {
+//                level: 4
+//                opacity: 0.8
+//                width: parent.width
+//                height: scrollView.height
+//                visible: streamsView.visible && !sinkInputView.count && !sourceOutputView.count
+//                text: i18n("No applications playing or recording audio")
+//                wrapMode: Text.WordWrap
+//                verticalAlignment: Text.AlignVCenter
+//                horizontalAlignment: Text.AlignHCenter
+//            }
 
             PlasmaExtras.Heading {
                 level: 4
