@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=Audio Controls
+Comment=Adjust the volume of devices and applications
+
+Icon=org.kde.plasma.volume
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+
+X-Plasma-NotificationArea=true
+X-Plasma-NotificationAreaCategory=Hardware
+X-Plasma-ConfigPlugins=kcm_pulseaudio
+
+X-KDE-PluginInfo-Name=org.nomad.audio
+X-KDE-PluginInfo-Category=Multimedia
+X-KDE-PluginInfo-Author=Alexis López Zubieta
+X-KDE-PluginInfo-Email=azubieta90gmail.com
+X-KDE-PluginInfo-Version=1.0.0
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
