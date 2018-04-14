@@ -1,0 +1,12 @@
+Source: nomad-audio-applet
+Section: KDE
+Priority: optional
+Maintainer: Alexis López Zubieta <azubieta90@gmail.com>
+Build-Depends: debhelper (>=9), cmake, extra-cmake-modules, libkf5i18n-dev, plasma-framework-dev, libkf5windowsystem-dev
+Standards-Version: 3.9.6
+
+Package: nomad-audio-applet
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, plasma-pa
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
