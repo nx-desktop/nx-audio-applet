@@ -1,4 +1,4 @@
-# Nomad Audio Applet [![Build Status](https://travis-ci.org/nomad-desktop/nomad-plasma-look-and-feel.svg?branch=master)](https://travis-ci.org/nomad-desktop/nomad-plasma-look-and-feel)
+# Nx Audio Applet [![Build Status](https://travis-ci.org/nx-desktop/nx-plasma-look-and-feel.svg?branch=master)](https://travis-ci.org/nx-desktop/nx-plasma-look-and-feel)
 
 This is the repository for the audio controller used in Nitrux.
 
