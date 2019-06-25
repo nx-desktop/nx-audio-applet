@@ -13,7 +13,7 @@ X-Plasma-NotificationArea=true
 X-Plasma-NotificationAreaCategory=Hardware
 X-Plasma-ConfigPlugins=kcm_pulseaudio
 
-X-KDE-PluginInfo-Name=org.nomad.audio
+X-KDE-PluginInfo-Name=org.nx.audio
 X-KDE-PluginInfo-Category=Multimedia
 X-KDE-PluginInfo-Author=Alexis López Zubieta
 X-KDE-PluginInfo-Email=azubieta90gmail.com

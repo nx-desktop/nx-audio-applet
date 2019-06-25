@@ -1,4 +1,4 @@
-project(nomad-audio-applet)
+project(nx-audio-applet)
 
 set(PROJECT_VERSION "1.0")
 set(PROJECT_VERSION_MAJOR 1)
@@ -19,7 +19,7 @@ include(FeatureSummary)
 find_package(KF5 REQUIRED
     I18n Plasma)
 
-plasma_install_package(package org.nomad.audio)
+plasma_install_package(package org.nx.audio)
 
 file(GLOB QML_SRCS package/contents/ui/*.qml)
 add_custom_target(QmlFiles ALL echo SOURCES ${QML_SRCS})
