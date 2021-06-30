@@ -15,7 +15,7 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
 apt -qq update
 
 ### Install Dependencies
-DEBIAN_FRONTEND=noninteractive apt -qq -yy install devscripts lintian build-essential automake autotools-dev cmake extra-cmake-modules libkf5i18n-dev plasma-framework-dev libkf5windowsystem-dev
+DEBIAN_FRONTEND=noninteractive apt -qq -yy install devscripts lintian build-essential automake autotools-dev
 mk-build-deps -i -t "apt-get --yes" -r
 
 ### Build Deb
